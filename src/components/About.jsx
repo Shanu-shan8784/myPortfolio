@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { HiOutlineBadgeCheck, HiOutlineLightBulb, HiOutlineAcademicCap } from "react-icons/hi";
 
 export default function About() {
@@ -76,9 +77,9 @@ export default function About() {
 
               {/* Download CV Call to Action */}
               <div className="mt-10">
-                <a href="#" className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-600/20">
+                <NavLink to="../cv/Cv.pdf" target="_blank" className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-600/20">
                   Download My CV
-                </a>
+                </NavLink>
               </div>
             </div>
           </div>
