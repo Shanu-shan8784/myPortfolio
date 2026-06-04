@@ -77,7 +77,7 @@ export default function About() {
 
               {/* Download CV Call to Action */}
               <div className="mt-10">
-                <NavLink to="../public/Cv.pdf" target="_blank" className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-600/20">
+                <NavLink to="/Cv.pdf" target="_blank" className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded-xl transition-all transform hover:-translate-y-1 shadow-lg shadow-blue-600/20">
                   Download My CV
                 </NavLink>
               </div>
