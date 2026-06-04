@@ -67,7 +67,7 @@ export default function Home() {
               
               <div className="relative aspect-square w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                 <img
-                  src="./src/assets/shan.jpg"
+                  src="./public/shan.jpg"
                   alt="Shahnawaz Hussain"
                   className="rounded-full w-full h-full object-cover border-4 border-blue-950 shadow-2xl transition-transform duration-500 group-hover:scale-[1.02] hover:animate-spin-slow-reverse"
                 />
