@@ -53,7 +53,7 @@ export default function Home() {
               <Link to="https://github.com/Shanu-shan8784" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'  rel="noopener noreferrer">
                 <FaGithub size={35} />
               </Link>
-              <Link to="https://linkedin.com/in/shahnawaz-hussain" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'  rel="noopener noreferrer">
+              <Link to="https://linkedin.com/in/shahnawaz-hussain-709756381" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'  rel="noopener noreferrer">
                 <FaLinkedin size={35} />
               </Link>
             </div>
