@@ -17,10 +17,10 @@ const Footer = () => {
             Crafting high-performance MERN stack applications with a focus on clean code and user experience.
           </p>
           <div className="flex justify-center md:justify-start gap-5 pt-2">
-            <Link href="https://github.com/Shanu-shan8784" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-all transform hover:-translate-y-1">
+            <Link href="https://github.com/Shanu-shan8784" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-all transform hover:-translate-y-1" rel="noopener noreferrer">
               <FaGithub size={30} />
             </Link>
-            <Link href="https://linkedin.com/in/shahnawaz-hussain" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-all transform hover:-translate-y-1">
+            <Link href="https://linkedin.com/in/shahnawaz-hussain" target="_blank" rel="noreferrer" className="hover:text-blue-400 transition-all transform hover:-translate-y-1"  rel="noopener noreferrer">
               <FaLinkedin size={30} />
             </Link>
           </div>

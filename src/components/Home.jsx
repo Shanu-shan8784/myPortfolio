@@ -50,10 +50,10 @@ export default function Home() {
 
             {/* Social Links */}
             <div className="flex gap-6 justify-center md:justify-start mt-12">
-              <Link to="https://github.com/Shanu-shan8784" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'>
+              <Link to="https://github.com/Shanu-shan8784" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'  rel="noopener noreferrer">
                 <FaGithub size={35} />
               </Link>
-              <Link to="https://linkedin.com/in/shahnawaz-hussain" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'>
+              <Link to="https://linkedin.com/in/shahnawaz-hussain" className="text-gray-400 hover:text-blue-400 transition-colors" target='_blank'  rel="noopener noreferrer">
                 <FaLinkedin size={35} />
               </Link>
             </div>
